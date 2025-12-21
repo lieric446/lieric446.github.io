@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import pfp from '../public/pfp.jpg'
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between h-24">
           <div className="flex items-center">
             <Image 
-              src="/pfp.JPG"
+              src={pfp}
               alt="Eric Li"
               width={80}
               height={80}
