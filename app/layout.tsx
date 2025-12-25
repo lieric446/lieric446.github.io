@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Home - Eric Li",
+  title: "Eric Li",
   description: "Using Next.js!",
+  icons: {
+    icon: "home.jpg",
+  }
 };
 
 export default function RootLayout({
