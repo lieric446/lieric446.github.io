@@ -13,7 +13,7 @@ export default function Navbar() {
               width={80}
               height={80}
             />
-            <span className="ml-2 text-xl font-bold text-gray-800">Eric Li</span>
+            <span className="ml-2 text-2xl font-bold">Eric Li</span>
           </div>
 
           <div className="flex items-center space-x-6">
